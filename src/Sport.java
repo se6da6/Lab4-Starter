@@ -7,7 +7,6 @@ public class Sport {
     ArrayList<String> playerList;
 
     public Sport(String sportName) {
-        super();
         playerList = new ArrayList<>();
         this.sportName = sportName;
     }
@@ -22,7 +21,4 @@ public class Sport {
         return  playerList.toString() ;
     }
         
-    
-    
-
 }
